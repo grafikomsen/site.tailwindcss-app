@@ -6,4 +6,6 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
-
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
