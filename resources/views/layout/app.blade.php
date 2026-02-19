@@ -11,7 +11,7 @@
         <header class="bg-[#0F1111]">
             <nav class="px-8 py-2">
                 <div class="hidden lg:flex lg:justify-between lg:items-center text-white font-poppins">
-                    <a href="">
+                    <a href="{{ route('home') }}">
                         <img class="w-[100px] border border-transparent hover:border-white p-2" src="{{ asset('frontend-assets/images/amazon_logo.png') }}" alt="">
                     </a>
                     <div class="flex items-center space-x-2 border border-transparent hover:border-white p-2">
