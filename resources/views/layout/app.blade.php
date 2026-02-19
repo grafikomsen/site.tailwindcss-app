@@ -34,13 +34,27 @@
                         </select>
                     </div>
                     <div class="flex items-center space-x-2 border border-transparent hover:border-white p-2">
-                        <a href="" class="text-xs">
-                            Bonjour, Identifiez-vous
-                            <br> <span class="font-semibold">Compte et liste</span>
-                        </a>
+                        @if (Route::has('login'))
+                            <nav class="flex items-center justify-end gap-4">
+                                @auth
+                                    <a href="{{ url('/dashboard') }}" class="text-xs">
+                                        Mon compte
+                                    </a>
+                                @else
+                                    <a href="{{ route('login') }}" class="text-xs">
+                                        Bonjour, Identifiez-vous
+                                        <br> <span class="font-semibold">à votre compte</span>
+                                    </a>
+                                @endauth
+                            </nav>
+                        @endif
+
                     </div>
-                    <div class=" border border-transparent hover:border-white p-2">
-                        <a href="" class="text-xs">Retours <br>et commandes</a>
+                    <div class="border border-transparent hover:border-white p-2">
+                        <a href="" class="text-xs">
+                            Retours
+                            <br><span class="font-semibold">et commande</span>
+                        </a>
                     </div>
                     <a href="" class="flex items-center space-x-2 border border-transparent hover:border-white p-2">
                         <h5 class="text-sm">Panier</h5>
