@@ -11,7 +11,7 @@
         <header class="text-white font-poppins">
             <div class="topBar bg-[#0F1111] flex items-center justify-between px-10 py-4">
                 <a href="" class="outline-0 hover:outline-1 p-2 outline-orange-50">
-                    <img class="w-25" src="{{ asset('frontend-assets/images/amazon_logo.png') }}" alt="Logo">
+                    <img class="w-16" src="{{ asset('frontend-assets/images/amazon_logo.png') }}" alt="Logo">
                 </a>
                 <div class="outline-0 hover:outline-1 p-2 outline-orange-50">
                     <h6 class="text-sm">
@@ -30,7 +30,7 @@
                 </form>
                 <div class="outline-0 hover:outline-1 p-2 outline-orange-50">
                     <select name="" id="" class="p-2 text-sm border-none">
-                        <option >FR</option>
+                        <option value="">FR</option>
                         <option value="">EN</option>
                     </select>
                 </div>
@@ -58,5 +58,6 @@
             </nav>
         </header>
         @yield('main')
+
     </body>
 </html>
