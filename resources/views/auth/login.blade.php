@@ -7,14 +7,14 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link rel="stylesheet" href="{{ asset('frontend-assets/fontawesome/css/all.min.css') }}" />
     </head>
-    <body>
-        <div  class="mx-auto my-16 max-w-sm sm:my-20 border-2 p-10 rounded-md shadow-md bg-[#222F3D]">
-            <a href="{{ route('home') }}" class="text-center">
-                <img class="w-[200px] inline-block justify-center" src="{{ asset('frontend-assets/images/amazon_logo.png') }}" alt="Logo">
+    <body class="bg-gray-300">
+        <div  class="mx-auto my-14 max-w-sm sm:my-20 border-2 p-8 rounded-md shadow-md bg-[#222F3D]">
+            <a href="{{ route('home') }}" class=" flex justify-center">
+                <img class="w-[150px]" src="{{ asset('frontend-assets/images/amazon_logo.png') }}" alt="Logo">
             </a>
             <form action="{{ route('login') }}" method="POST">
                 @csrf
-                <div class="grid grid-cols-1 gap-x-8 gap-y-6">
+                <div class="grid grid-cols-1 gap-x-8 gap-y-4">
 
                     <!-- Email -->
                     <div>
@@ -55,7 +55,9 @@
                             @endif
                         </div>
                     </div>
-                    <button class="bg-orange-500 text-white p-3 rounded-md" type="submit">Se connecter</button>
+                    <button class="bg-orange-500 text-white p-2 rounded-md" type="submit">Se connecter</button>
+                    <a class="bg-orange-500 text-white p-2 rounded-md text-center" href="" >Se connecter avec google</a>
+                    <a href="{{ route('register') }}" class="text-end text-xs text-white">Nouveau chez Amazon ? créer votre compte Amazon</a>
                 </div>
             </form>
         </div>
