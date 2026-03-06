@@ -77,4 +77,34 @@
             </div>
         </div>
     </section>
+
+    <!-- PROMOS SECTION -->
+    <section id="Promo">
+        <div class="container flex flex-col gap-4 md:flex-row">
+            <!-- CARD 1 -->
+            <div class="flex flex-col p-5 bg-primaryColorLight rounded-lg">
+
+                <img class="w-40 mx-auto hover:animate-movingY" src="{{ asset('frontend-assets/images/promo-1.png') }}" alt="Promo image">
+
+                <div class=" mt-4 space-y-2">
+                    <p class="text-secondaryColor text-sm">Payday promo</p>
+                    <h3 class="card-title">Get 10% discount on payday week</h3>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="text-xs text-secondaryColor" href="">Buy online</a>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="flex flex-col p-5 bg-primaryColorLight rounded-lg">
+
+                <img class="w-40 mx-auto hover:animate-movingY" src="{{ asset('frontend-assets/images/promo-2.png') }}" alt="Promo image">
+
+                <div class=" mt-4 space-y-2">
+                    <p class="text-secondaryColor text-sm">Payday promo</p>
+                    <h3 class="card-title">Get 10% discount on payday week</h3>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="text-xs text-secondaryColor" href="">Buy online</a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
