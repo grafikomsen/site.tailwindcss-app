@@ -9,7 +9,7 @@
     }
 
     section{
-        @apply pt-16 pb-4 md:pt-36;
+        @apply pt-16 pb-4 md:pt-28;
     }
 }
 

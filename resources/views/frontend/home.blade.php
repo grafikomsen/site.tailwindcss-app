@@ -1,9 +1,10 @@
 @extends('app.app')
 @section('main')
+    <!-- HERO SECTION -->
     <section id="Hero">
         <div class="container flex flex-col items-center md:flex-row gap-10">
-            <div class="mx-auto md:basis-1/2 lg:basis-2/5">
-                <img class="w-60" src="{{ asset('frontend-assets/images/home-image.png') }}" alt="hero-image">
+            <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
+                <img class="w-60 md:w-full" src="{{ asset('frontend-assets/images/home-image.png') }}" alt="hero-image">
             </div>
             <div class="text-center md:basis-1/2 md:text-start lg:basis-3/5">
                 <h1 class="home-title">HAPPY TUMMY WITH TASTY BURGERS</h1>
@@ -13,7 +14,7 @@
                     obcaecati, ipsum odit perferendis laboriosam voluptate dolorem
                     expedita quis repellendus recusandae! Dolorem ducimus quis voluptate?
                 </p>
-                <div class="flex justify-center items-center md:justify-start md:gap-20 gap-4 py-10 text-base">
+                <div class="flex justify-center items-center md:justify-start md:gap-10 gap-4 py-10 text-base">
                     <div class="text-center">
                         <i class="fa-solid text-secondaryColor text-4xl fa-utensils"></i><br>
                         Delicious
