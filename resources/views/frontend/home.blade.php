@@ -32,4 +32,49 @@
             </div>
         </div>
     </section>
+
+    <!-- CATEGORIES SECTION -->
+    <section id="Category">
+        <div class="container flex flex-col gap-5 md:flex-row">
+            <!-- CARD 1 -->
+            <div class="bg-secondaryColor flex py-3 rounded-lg overflow-hidden">
+                <div class="relative basis-1/3">
+                    <img class="w-34 absolute -bottom-4 -left-4" src="{{ asset('frontend-assets/images/burger-1.png') }}" alt="">
+                </div>
+                <div class="basis-2/3">
+                    <div class="mb-3">
+                        <h4 class="card-title">Food</h4>
+                        <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <a class="text-black" href="">Buy online</a>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class=" bg-redColor flex py-3 rounded-lg overflow-hidden">
+                <div class="relative basis-1/3">
+                    <img class="w-34 absolute -bottom-4 -left-4" src="{{ asset('frontend-assets/images/snack-1.png') }}" alt="">
+                </div>
+                <div class="basis-2/3">
+                    <div class="mb-3">
+                        <h4 class="card-title">Snack</h4>
+                        <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <a class="text-secondaryColor" href="">Buy online</a>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class=" bg-greenColor flex py-3 rounded-lg overflow-hidden">
+                <div class="relative basis-1/3">
+                    <img class="w-34 absolute -bottom-4 -left-4" src="{{ asset('frontend-assets/images/beverage-2.png') }}" alt="">
+                </div>
+                <div class="basis-2/3">
+                    <div class="mb-3">
+                        <h4 class="card-title">Beverage</h4>
+                        <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <a class="text-secondaryColor" href="">Buy online</a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
