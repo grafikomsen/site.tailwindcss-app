@@ -46,3 +46,9 @@
         @apply text-base leading-5 text-paragraphColor;
     }
 }
+
+.tabs ul li:hover,
+.tabs ul li.active {
+    @apply bg-secondaryColor cursor-pointer text-blackColor ease-linear duration-200;
+}
+

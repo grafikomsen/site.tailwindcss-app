@@ -145,4 +145,177 @@
             </div>
         </div>
     </section>
+
+    <!-- MENU SECTION -->
+    <section id="Menu">
+        <div class="container">
+            <div class="flex flex-col items-center space-y-3">
+                <h2 class=" section-title">OUR BEST MENU</h2>
+                <div class="separator"></div>
+                <p class="para text-center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                </p>
+                <div class="tabs">
+                    <ul class="flex flex-wrap items-center gap-4">
+                        <li class="btn bg-primaryColorLight active" data-tabs="all">All</li>
+                        <li class="btn bg-primaryColorLight" data-tabs="food">Food</li>
+                        <li class="btn bg-primaryColorLight" data-tabs="snack">Snack</li>
+                        <li class="btn bg-primaryColorLight" data-tabs="beverage">Beverage</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <ul class="grid grid-col-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 mt-10">
+                    <!-- FOOD -->
+                    <li class="items-wrap food">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-1.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">REGULAR BEEF BURGER</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap food">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-2.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">REGULAR BEEF BURGER</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap food">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-3.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">REGULAR BEEF BURGER</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap food">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-4.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">REGULAR BEEF BURGER</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <!-- SNACK -->
+                    <li class="items-wrap snack">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-1.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">FRENCH FRIES</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap snack">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-2.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">FRENCH FRIES</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap snack">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-3.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">FRENCH FRIES</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap snack">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-4.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">FRENCH FRIES</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <!-- BEVERAGE -->
+                    <li class="items-wrap beverage">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-1.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">SWEET SMOOTHIE</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap beverage">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-2.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">SWEET SMOOTHIE</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap beverage">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-3.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">SWEET SMOOTHIE</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                    <li class="items-wrap beverage">
+                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
+                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-5.png') }}" alt="food image">
+                        </div>
+                        <div class="mt-5">
+                            <div>
+                                <h4 class="card-title">SWEET SMOOTHIE</h4>
+                                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <p class="text-secondaryColor">$42.00</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 @endsection

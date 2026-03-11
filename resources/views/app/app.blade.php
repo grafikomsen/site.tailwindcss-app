@@ -23,17 +23,17 @@
     </head>
     <body>
         <header class="fixed top-0 left-0 w-full z-50 bg-primaryColor">
-            <nav class="px-6 md:px-20 flex items-center justify-between h-14 relative">
+            <nav class="px-6 md:px-20 flex items-center justify-between h-16 relative">
                 <div>
                     <a href="{{ route('home') }}" class="text-2xl uppercase font-oswald font-bold">bur<span class="text-secondaryColor">ger</span></a>
                 </div>
                 <div class="hidden absolute top-0 left-0 w-full py-14 bg-primaryColor border-b border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
                     <ul class="flex flex-col md:flex-row text-center gap-4">
                         <li><a href="#Hero" class="nav-link hover:text-secondaryColor ease-in duration-200">Home</a></li>
-                        <li><a href="#about" class="nav-link hover:text-secondaryColor ease-in duration-200">About Us</a></li>
-                        <li><a href="#menu" class="nav-link hover:text-secondaryColor ease-in duration-200">Menu</a></li>
-                        <li><a href="#reviews" class="nav-link hover:text-secondaryColor ease-in duration-200">Reviews</a></li>
-                        <li><a href="#contact" class="nav-link hover:text-secondaryColor ease-in duration-200">Contact</a></li>
+                        <li><a href="#About" class="nav-link hover:text-secondaryColor ease-in duration-200">About Us</a></li>
+                        <li><a href="#Menu" class="nav-link hover:text-secondaryColor ease-in duration-200">Menu</a></li>
+                        <li><a href="#Reviews" class="nav-link hover:text-secondaryColor ease-in duration-200">Reviews</a></li>
+                        <li><a href="#Contact" class="nav-link hover:text-secondaryColor ease-in duration-200">Contact</a></li>
                     </ul>
                     <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden" id="nav-close">
                         <i class="ri-close-line"></i>
