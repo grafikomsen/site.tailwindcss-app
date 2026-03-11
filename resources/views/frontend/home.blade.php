@@ -318,4 +318,118 @@
             </div>
         </div>
     </section>
+
+    <!-- MENU SECTION -->
+    <section id="Menu">
+        <div class="container">
+            <div class="flex flex-col items-center space-y-3">
+                <h2 class=" section-title">CUSTOMER REVIEW</h2>
+                <div class="separator"></div>
+                <p class="para text-center">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                </p>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper mt-10">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <div class="bg-primaryColorLight p-6 rounded-md">
+                            <p class="para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique culpa ut amet voluptas asperiores alias sed consequatur.
+                            </p>
+                            <div class="flex items-center">
+                                <div class="flex gap-4 mt-4">
+                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-1.jpg') }}" alt="Review image">
+                                    <div>
+                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h4 class="para">Designer</h4>
+                                    </div>
+                                </div>
+                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="swiper-slide">
+                        <div class="bg-primaryColorLight p-6 rounded-md">
+                            <p class="para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique culpa ut amet voluptas asperiores alias sed consequatur.
+                            </p>
+                            <div class="flex items-center">
+                                <div class="flex gap-4 mt-4">
+                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-2.jpg') }}" alt="Review image">
+                                    <div>
+                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h4 class="para">Designer</h4>
+                                    </div>
+                                </div>
+                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="swiper-slide">
+                        <div class="bg-primaryColorLight p-6 rounded-md">
+                            <p class="para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique culpa ut amet voluptas asperiores alias sed consequatur.
+                            </p>
+                            <div class="flex items-center">
+                                <div class="flex gap-4 mt-4">
+                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-3.jpg') }}" alt="Review image">
+                                    <div>
+                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h4 class="para">Designer</h4>
+                                    </div>
+                                </div>
+                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="swiper-slide">
+                        <div class="bg-primaryColorLight p-6 rounded-md">
+                            <p class="para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique culpa ut amet voluptas asperiores alias sed consequatur.
+                            </p>
+                            <div class="flex items-center">
+                                <div class="flex gap-4 mt-4">
+                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-4.jpg') }}" alt="Review image">
+                                    <div>
+                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h4 class="para">Designer</h4>
+                                    </div>
+                                </div>
+                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="swiper-slide">
+                        <div class="bg-primaryColorLight p-6 rounded-md">
+                            <p class="para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique culpa ut amet voluptas asperiores alias sed consequatur.
+                            </p>
+                            <div class="flex items-center">
+                                <div class="flex gap-4 mt-4">
+                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-5.jpg') }}" alt="Review image">
+                                    <div>
+                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h4 class="para">Designer</h4>
+                                    </div>
+                                </div>
+                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
 @endsection
