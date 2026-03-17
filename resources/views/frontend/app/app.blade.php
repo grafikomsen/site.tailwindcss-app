@@ -47,9 +47,57 @@
                 </div>
             </nav>
         </header>
-        @yield('main')
-        <footer class="text-white">
-
+        <main>
+            @yield('main')
+        </main>
+        <footer class="py-16">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pb-5">
+                    <div class="flex flex-col gap-3">
+                        <a href="{{ route('home') }}" class="text-2xl uppercase font-oswald font-bold">
+                            Bur<span class="text-secondaryColor">ger</span>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        </p>
+                        <div>
+                            <h3 class="text-base font-bold">FOLLOW US</h3>
+                            <div class="flex items-center gap-2">
+                                <a href="" class="bg-secondaryColor hover:opacity-80 duration-200 ease-linear p-2 rounded"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="" class="bg-secondaryColor hover:opacity-80 duration-200 ease-linear p-2 rounded"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="" class="bg-secondaryColor hover:opacity-80 duration-200 ease-linear p-2 rounded"><i class="fa-brands fa-square-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="card-title">SUPPORT</h3>
+                        <ul>
+                            <li><a href="" class="hover:text-secondaryColor duration-200 ease-linear">FAQ</a></li>
+                            <li><a href="" class="hover:text-secondaryColor duration-200 ease-linear">Privacy Policy</a></li>
+                            <li><a href="" class="hover:text-secondaryColor duration-200 ease-linear">Term & Condition</a></li>
+                            <li><a href="" class="hover:text-secondaryColor duration-200 ease-linear">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h3 class="card-title">INFORMATIONS CONTACTS</h3>
+                        <div>
+                            <h3 class="text-base font-bold">ADDRESS</h3>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h3>Address goes here</h3>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-base font-bold">PHONE</h3>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-phone"></i>
+                                <h3>+1 000 000 0000</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->

@@ -442,11 +442,11 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
             </div>
-            <div class="flex flex-col md:flex-row gap-2 mt-8">
+            <div class="flex flex-col md:flex-row md:flex-1 gap-2 mt-8">
                 <input type="email" placeholder="Email address" class="lg:w-[300px] border border-transparent px-4 py-2 rounded">
-                <a href="" class="btn bg-blackColor hover:opacity-80 flex items-center text-center gap-2">
-                    Subscribe
+                <a href="" class="btn bg-blackColor hover:opacity-80 flex items-center justify-center text-center gap-2">
                     <i class="fa-solid fa-paper-plane"></i>
+                    Subscribe
                 </a>
             </div>
         </div>
