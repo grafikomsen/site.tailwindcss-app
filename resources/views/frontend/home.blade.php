@@ -1,4 +1,4 @@
-@extends('app.app')
+@extends('frontend.app.app')
 @section('main')
 
     <!-- HERO SECTION -->
@@ -320,7 +320,7 @@
     </section>
 
     <!-- MENU SECTION -->
-    <section id="Menu">
+    <section id="Reviews">
         <div class="container">
             <div class="flex flex-col items-center space-y-3">
                 <h2 class=" section-title">CUSTOMER REVIEW</h2>
@@ -429,6 +429,25 @@
                     </li>
                 </ul>
                 <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="Contact" class="bg-secondaryColor py-16">
+        <div class="container flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div class="flex flex-col space-y-3">
+                <h2 class="section-title">GET EXCLUSIVE UPDATE</h2>
+                <p class="text-black">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-2 mt-8">
+                <input type="email" placeholder="Email address" class="lg:w-[300px] border border-transparent px-4 py-2 rounded">
+                <a href="" class="btn bg-blackColor hover:opacity-80 flex items-center text-center gap-2">
+                    Subscribe
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
             </div>
         </div>
     </section>
