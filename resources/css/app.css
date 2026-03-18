@@ -4,8 +4,12 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
     body{
-        @apply tracking-wider text-whiteColor bg-primaryColor font-dmsans;
+        @apply tracking-wider text-whiteColor bg-primaryColor font-dmsans dark:bg-darkColor;
     }
 
     section{
@@ -49,6 +53,6 @@
 
 .tabs ul li:hover,
 .tabs ul li.active {
-    @apply bg-secondaryColor cursor-pointer text-blackColor ease-linear duration-200;
+    @apply duration-200 ease-linear cursor-pointer bg-secondaryColor text-blackColor;
 }
 

@@ -2,7 +2,7 @@
 @section('main')
 
     <!-- HERO SECTION -->
-    <section id="Hero">
+    <section class=" dark:bg-darkColor" id="Hero">
         <div class="container flex flex-col items-center gap-10 md:flex-row">
             <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
                 <img class="w-60 md:w-full" src="{{ asset('frontend-assets/images/home-image.png') }}" alt="hero-image">
@@ -152,7 +152,7 @@
             <div class="flex flex-col items-center space-y-3">
                 <h2 class=" section-title">OUR BEST MENU</h2>
                 <div class="separator"></div>
-                <p class="para text-center">
+                <p class="text-center para">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa.
                 </p>
@@ -166,11 +166,11 @@
                 </div>
             </div>
             <div>
-                <ul class="grid grid-col-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12 mt-10">
+                <ul class="grid gap-5 mt-10 grid-col-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
                     <!-- FOOD -->
                     <li class="items-wrap food">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-1.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-1.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -181,8 +181,8 @@
                         </div>
                     </li>
                     <li class="items-wrap food">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-2.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-2.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -193,8 +193,8 @@
                         </div>
                     </li>
                     <li class="items-wrap food">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-3.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-3.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -205,8 +205,8 @@
                         </div>
                     </li>
                     <li class="items-wrap food">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/burger-4.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-4.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -218,8 +218,8 @@
                     </li>
                     <!-- SNACK -->
                     <li class="items-wrap snack">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-1.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-1.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -230,8 +230,8 @@
                         </div>
                     </li>
                     <li class="items-wrap snack">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-2.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-2.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -242,8 +242,8 @@
                         </div>
                     </li>
                     <li class="items-wrap snack">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-3.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-3.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -254,8 +254,8 @@
                         </div>
                     </li>
                     <li class="items-wrap snack">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/snack-4.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-4.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -267,8 +267,8 @@
                     </li>
                     <!-- BEVERAGE -->
                     <li class="items-wrap beverage">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-1.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-1.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -279,8 +279,8 @@
                         </div>
                     </li>
                     <li class="items-wrap beverage">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-2.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-2.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -291,8 +291,8 @@
                         </div>
                     </li>
                     <li class="items-wrap beverage">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-3.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-3.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -303,8 +303,8 @@
                         </div>
                     </li>
                     <li class="items-wrap beverage">
-                        <div class="h-56 grid place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor ease-linear duration-200">
-                            <img class="w-40 hover:scale-110 ease-linear duration-200" src="{{ asset('frontend-assets/images/beverage-5.png') }}" alt="food image">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                            <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-5.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
                             <div>
@@ -325,105 +325,105 @@
             <div class="flex flex-col items-center space-y-3">
                 <h2 class=" section-title">CUSTOMER REVIEW</h2>
                 <div class="separator"></div>
-                <p class="para text-center">
+                <p class="text-center para">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa.
                 </p>
             </div>
             <!-- Slider main container -->
-            <div class="swiper mt-10">
+            <div class="mt-10 swiper">
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide">
-                        <div class="bg-primaryColorLight p-6 rounded-md">
+                        <div class="p-6 rounded-md bg-primaryColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
                             </p>
                             <div class="flex items-center">
                                 <div class="flex gap-4 mt-4">
-                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-1.jpg') }}" alt="Review image">
+                                    <img class="rounded-full w-14 h-14" src="{{ asset('frontend-assets/images/review-1.jpg') }}" alt="Review image">
                                     <div>
-                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h3 class="text-xl uppercase  font-oswald">John doe</h3>
                                         <h4 class="para">Designer</h4>
                                     </div>
                                 </div>
-                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                                <i class="ml-auto fa-solid text-7xl text-secondaryColor fa-quote-right"></i>
                             </div>
                         </div>
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="bg-primaryColorLight p-6 rounded-md">
+                        <div class="p-6 rounded-md bg-primaryColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
                             </p>
                             <div class="flex items-center">
                                 <div class="flex gap-4 mt-4">
-                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-2.jpg') }}" alt="Review image">
+                                    <img class="rounded-full w-14 h-14" src="{{ asset('frontend-assets/images/review-2.jpg') }}" alt="Review image">
                                     <div>
-                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h3 class="text-xl uppercase  font-oswald">John doe</h3>
                                         <h4 class="para">Designer</h4>
                                     </div>
                                 </div>
-                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                                <i class="ml-auto fa-solid text-7xl text-secondaryColor fa-quote-right"></i>
                             </div>
                         </div>
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="bg-primaryColorLight p-6 rounded-md">
+                        <div class="p-6 rounded-md bg-primaryColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
                             </p>
                             <div class="flex items-center">
                                 <div class="flex gap-4 mt-4">
-                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-3.jpg') }}" alt="Review image">
+                                    <img class="rounded-full w-14 h-14" src="{{ asset('frontend-assets/images/review-3.jpg') }}" alt="Review image">
                                     <div>
-                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h3 class="text-xl uppercase  font-oswald">John doe</h3>
                                         <h4 class="para">Designer</h4>
                                     </div>
                                 </div>
-                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                                <i class="ml-auto fa-solid text-7xl text-secondaryColor fa-quote-right"></i>
                             </div>
                         </div>
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="bg-primaryColorLight p-6 rounded-md">
+                        <div class="p-6 rounded-md bg-primaryColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
                             </p>
                             <div class="flex items-center">
                                 <div class="flex gap-4 mt-4">
-                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-4.jpg') }}" alt="Review image">
+                                    <img class="rounded-full w-14 h-14" src="{{ asset('frontend-assets/images/review-4.jpg') }}" alt="Review image">
                                     <div>
-                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h3 class="text-xl uppercase  font-oswald">John doe</h3>
                                         <h4 class="para">Designer</h4>
                                     </div>
                                 </div>
-                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                                <i class="ml-auto fa-solid text-7xl text-secondaryColor fa-quote-right"></i>
                             </div>
                         </div>
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="bg-primaryColorLight p-6 rounded-md">
+                        <div class="p-6 rounded-md bg-primaryColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
                             </p>
                             <div class="flex items-center">
                                 <div class="flex gap-4 mt-4">
-                                    <img class="w-14 h-14 rounded-full" src="{{ asset('frontend-assets/images/review-5.jpg') }}" alt="Review image">
+                                    <img class="rounded-full w-14 h-14" src="{{ asset('frontend-assets/images/review-5.jpg') }}" alt="Review image">
                                     <div>
-                                        <h3 class=" font-oswald uppercase text-xl">John doe</h3>
+                                        <h3 class="text-xl uppercase  font-oswald">John doe</h3>
                                         <h4 class="para">Designer</h4>
                                     </div>
                                 </div>
-                                <i class="fa-solid text-7xl text-secondaryColor ml-auto fa-quote-right"></i>
+                                <i class="ml-auto fa-solid text-7xl text-secondaryColor fa-quote-right"></i>
                             </div>
                         </div>
                     </li>
@@ -434,17 +434,17 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="Contact" class="bg-secondaryColor py-16">
-        <div class="container flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    <section id="Contact" class="py-16 bg-secondaryColor">
+        <div class="container flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div class="flex flex-col space-y-3">
                 <h2 class="section-title">GET EXCLUSIVE UPDATE</h2>
                 <p class="text-black">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
             </div>
-            <div class="flex flex-col md:flex-row md:flex-1 gap-2 mt-8">
+            <div class="flex flex-col gap-2 mt-8 md:flex-row md:flex-1">
                 <input type="email" placeholder="Email address" class="lg:w-[300px] border border-transparent px-4 py-2 rounded">
-                <a href="" class="btn bg-blackColor hover:opacity-80 flex items-center justify-center text-center gap-2">
+                <a href="" class="flex items-center justify-center gap-2 text-center btn bg-blackColor hover:opacity-80">
                     <i class="fa-solid fa-paper-plane"></i>
                     Subscribe
                 </a>
