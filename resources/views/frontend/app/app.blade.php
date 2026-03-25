@@ -5,19 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
         <link rel="shortcut icon" href="{{ asset('frontend-assets/images/favicon.png') }}" type="image/x-icon" />
-
         <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
         <title>{{ config('app.name', 'Tailwindcss') }}</title>
-
         <!--~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~-->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
         <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
         <link rel="stylesheet" href="{{ asset('frontend-assets/fontawesome/css/all.min.css') }}" />
-
         <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"/>
-
         <!--  Swiper CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     </head>
@@ -56,7 +51,6 @@
 
         <!--~~~~~~~~~~~~~~~ Swiper JS ~~~~~~~~~~~~~~~-->
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
         <!--~~~~~~~~~~~~~~~ Scroll Reveal ~~~~~~~~~~~~~~~-->
         <script src="https://unpkg.com/scrollreveal"></script>
         <!--~~~~~~~~~~~~~~~ Main.js ~~~~~~~~~~~~~~~-->

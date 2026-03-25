@@ -1,4 +1,4 @@
-@extends('app.app')
+@extends('frontend.app.app')
 @section('main')
 
     <!-- HERO SECTION -->
