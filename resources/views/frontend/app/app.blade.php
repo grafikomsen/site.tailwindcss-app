@@ -29,7 +29,7 @@
                 </div>
                 <div class="absolute top-0 left-0 hidden w-full border-b py-14 bg-primaryColor dark:bg-darkColor border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
                     <ul class="flex flex-col gap-4 text-center md:flex-row">
-                        <li><a href="#Hero" class="duration-200 ease-in nav-link hover:text-secondaryColor">Home</a></li>
+                        <li><a href="#Home" class="duration-200 ease-in nav-link text-secondaryColor hover:text-secondaryColor">Home</a></li>
                         <li><a href="#About" class="duration-200 ease-in nav-link hover:text-secondaryColor">About Us</a></li>
                         <li><a href="#Menu" class="duration-200 ease-in nav-link hover:text-secondaryColor">Menu</a></li>
                         <li><a href="#Reviews" class="duration-200 ease-in nav-link hover:text-secondaryColor">Reviews</a></li>

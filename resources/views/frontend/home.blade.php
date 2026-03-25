@@ -2,7 +2,7 @@
 @section('main')
 
     <!-- HERO SECTION -->
-    <section class=" dark:bg-darkColor" id="Hero">
+    <section id="Home">
         <div class="container flex flex-col items-center gap-10 md:flex-row">
             <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
                 <img class="w-60 md:w-full" src="{{ asset('frontend-assets/images/home-image.png') }}" alt="hero-image">
