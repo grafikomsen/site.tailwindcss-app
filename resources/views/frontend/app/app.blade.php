@@ -106,8 +106,8 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-center py-2 border-t border-secondaryColor md:flex-row md:items-center md:justify-between">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Burger template kit by Light Code.</p>
+                    <p>Copyright 2026. All rights reserved</p>
                 </div>
             </div>
         </footer>
