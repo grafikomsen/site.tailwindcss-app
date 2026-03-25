@@ -176,3 +176,21 @@ const activeLink = () => {
 window.addEventListener('scroll', activeLink);
 
 /*~~~~~~~~~~~~~~~ SCROLL REVEAL ANIMATION ~~~~~~~~~~~~~~~*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 200
+});
+
+sr.reveal(".image-animate");
+sr.reveal(".content-animate",{origin: 'bottom'});
+sr.reveal(".card-animate",{interval: 300});
+sr.reveal(".promo1-animate",{origin: 'left'});
+sr.reveal(".promo2-animate",{origin: 'right'});
+sr.reveal(".aboutImg-animate",{origin: 'top'});
+sr.reveal(".aboutCont-animate",{origin: 'bottom'});
+sr.reveal(".menuItem-animate",{origin: 'left'});
+sr.reveal(".review-animate",{origin: 'rignt'});
+sr.reveal(".contact-animate",{scale: 1});
+sr.reveal(".footer-animate");

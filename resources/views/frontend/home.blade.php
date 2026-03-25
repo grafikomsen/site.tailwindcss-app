@@ -5,9 +5,9 @@
     <section id="Home">
         <div class="container flex flex-col items-center gap-10 md:flex-row">
             <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
-                <img class="w-60 md:w-full" src="{{ asset('frontend-assets/images/home-image.png') }}" alt="hero-image">
+                <img class="w-60 md:w-full image-animate" src="{{ asset('frontend-assets/images/home-image.png') }}" alt="hero-image">
             </div>
-            <div class="text-center md:basis-1/2 md:text-start lg:basis-3/5">
+            <div class="text-center md:basis-1/2 md:text-start content-animate lg:basis-3/5">
                 <h1 class="home-title">HAPPY TUMMY WITH TASTY BURGERS</h1>
                 <div class="mx-auto separator md:mx-0"></div>
                 <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -38,7 +38,7 @@
     <section id="Category">
         <div class="container flex flex-col gap-5 md:flex-row">
             <!-- CARD 1 -->
-            <div class="flex py-3 overflow-hidden rounded-lg bg-secondaryColor">
+            <div class="flex py-3 overflow-hidden rounded-lg bg-secondaryColor card-animate">
                 <div class="relative basis-1/3">
                     <img class="absolute w-34 -bottom-4 -left-4" src="{{ asset('frontend-assets/images/burger-1.png') }}" alt="">
                 </div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <!-- CARD 2 -->
-            <div class="flex py-3 overflow-hidden rounded-lg bg-redColor">
+            <div class="flex py-3 overflow-hidden rounded-lg bg-redColor card-animate">
                 <div class="relative basis-1/3">
                     <img class="absolute w-34 -bottom-4 -left-4" src="{{ asset('frontend-assets/images/snack-1.png') }}" alt="">
                 </div>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <!-- CARD 3 -->
-            <div class="flex py-3 overflow-hidden rounded-lg bg-greenColor">
+            <div class="flex py-3 overflow-hidden rounded-lg bg-greenColor card-animate">
                 <div class="relative basis-1/3">
                     <img class="absolute w-34 -bottom-4 -left-4" src="{{ asset('frontend-assets/images/beverage-2.png') }}" alt="">
                 </div>
@@ -83,7 +83,7 @@
     <section id="Promo">
         <div class="container flex flex-col gap-4 md:flex-row">
             <!-- CARD 1 -->
-            <div class="flex flex-col p-5 rounded-lg bg-primaryColorLight dark:bg-darkColorLight">
+            <div class="flex promo1-animate flex-col p-5 rounded-lg bg-primaryColorLight dark:bg-darkColorLight">
 
                 <img class="w-40 mx-auto hover:animate-movingY" src="{{ asset('frontend-assets/images/promo-1.png') }}" alt="Promo image">
 
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <!-- CARD 2 -->
-            <div class="flex flex-col p-5 rounded-lg bg-primaryColorLight dark:bg-darkColorLight">
+            <div class="flex promo2-animate flex-col p-5 rounded-lg bg-primaryColorLight dark:bg-darkColorLight">
 
                 <img class="w-40 mx-auto hover:animate-movingY" src="{{ asset('frontend-assets/images/promo-2.png') }}" alt="Promo image">
 
@@ -113,9 +113,9 @@
     <section id="About">
         <div class="container flex flex-col gap-10 md:flex-row">
             <div class="flex-1">
-                <img class="rounded-lg" src="{{ asset('frontend-assets/images/about.jpg') }}" alt="">
+                <img class="rounded-lg aboutImg-animate" src="{{ asset('frontend-assets/images/about.jpg') }}" alt="">
             </div>
-            <div class="flex-1">
+            <div class="flex-1 aboutCont-animate">
                 <h2 class="section-title">FIND FOOD AND DRINKS, ALL-IN-ONE PLACE FOR YOUR BEST TASTE.</h2>
                 <div class="separator"></div>
                 <p class="para">
@@ -148,7 +148,7 @@
 
     <!-- MENU SECTION -->
     <section id="Menu">
-        <div class="container">
+        <div class="container menuItem-animate">
             <div class="flex flex-col items-center space-y-3">
                 <h2 class=" section-title">OUR BEST MENU</h2>
                 <div class="separator"></div>
@@ -321,7 +321,7 @@
 
     <!-- MENU SECTION -->
     <section class="py-16" id="Reviews">
-        <div class="container">
+        <div class="container review-animate">
             <div class="flex flex-col items-center space-y-3">
                 <h2 class=" section-title">CUSTOMER REVIEW</h2>
                 <div class="separator"></div>
@@ -434,7 +434,7 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="Contact" class="py-16 bg-secondaryColor">
+    <section id="Contact" class="py-16 bg-secondaryColor contact-animate">
         <div class="container flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div class="flex flex-col space-y-3">
                 <h2 class="section-title">GET EXCLUSIVE UPDATE</h2>
