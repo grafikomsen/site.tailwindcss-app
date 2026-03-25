@@ -22,12 +22,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     </head>
     <body>
-        <header class="fixed top-0 left-0 z-50 w-full bg-primaryColor" id="header">
+        <header class="fixed top-0 left-0 z-50 w-full bg-primaryColor dark:bg-darkColor" id="header">
             <nav class="relative flex items-center justify-between h-16 px-6 md:px-20">
                 <div>
                     <a href="{{ route('home') }}" class="text-2xl font-bold uppercase font-oswald">bur<span class="text-secondaryColor">ger</span></a>
                 </div>
-                <div class="absolute top-0 left-0 hidden w-full border-b py-14 bg-primaryColor border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
+                <div class="absolute top-0 left-0 hidden w-full border-b py-14 bg-primaryColor dark:bg-darkColor border-secondaryColor md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
                     <ul class="flex flex-col gap-4 text-center md:flex-row">
                         <li><a href="#Hero" class="duration-200 ease-in nav-link hover:text-secondaryColor">Home</a></li>
                         <li><a href="#About" class="duration-200 ease-in nav-link hover:text-secondaryColor">About Us</a></li>
@@ -47,9 +47,11 @@
                 </div>
             </nav>
         </header>
+
         <main>
             @yield('main')
         </main>
+
         <footer class="py-16">
             <div class="container">
                 <div class="grid grid-cols-1 gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
@@ -113,7 +115,9 @@
         </footer>
 
         <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
-        <a href="#" id="scroll-up" class="fixed z-50 px-3 py-2 duration-200 ease-in rounded-full shadow-sm bottom-4 text-neutral-900 hover:-translate-y-1 right-4 bg-secondaryColor">
+        <a href="#" id="scroll-up" class="fixed z-50 px-3 py-2 duration-200 ease-in
+         rounded-full shadow-sm -bottom-1/2 text-lg text-neutral-900 hover:-translate-y-1
+         right-4 bg-secondaryColor">
             <i class="fa-solid fa-arrow-up"></i>
         </a>
 

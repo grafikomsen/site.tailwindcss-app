@@ -83,7 +83,7 @@
     <section id="Promo">
         <div class="container flex flex-col gap-4 md:flex-row">
             <!-- CARD 1 -->
-            <div class="flex flex-col p-5 rounded-lg bg-primaryColorLight">
+            <div class="flex flex-col p-5 rounded-lg bg-primaryColorLight dark:bg-darkColorLight">
 
                 <img class="w-40 mx-auto hover:animate-movingY" src="{{ asset('frontend-assets/images/promo-1.png') }}" alt="Promo image">
 
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <!-- CARD 2 -->
-            <div class="flex flex-col p-5 rounded-lg bg-primaryColorLight">
+            <div class="flex flex-col p-5 rounded-lg bg-primaryColorLight dark:bg-darkColorLight">
 
                 <img class="w-40 mx-auto hover:animate-movingY" src="{{ asset('frontend-assets/images/promo-2.png') }}" alt="Promo image">
 
@@ -158,10 +158,10 @@
                 </p>
                 <div class="tabs">
                     <ul class="flex flex-wrap items-center gap-4">
-                        <li class="btn bg-primaryColorLight active" data-tabs="all">All</li>
-                        <li class="btn bg-primaryColorLight" data-tabs="food">Food</li>
-                        <li class="btn bg-primaryColorLight" data-tabs="snack">Snack</li>
-                        <li class="btn bg-primaryColorLight" data-tabs="beverage">Beverage</li>
+                        <li class="btn bg-primaryColorLight dark:bg-darkColorLight active" data-tabs="all">All</li>
+                        <li class="btn bg-primaryColorLight dark:bg-darkColorLight" data-tabs="food">Food</li>
+                        <li class="btn bg-primaryColorLight dark:bg-darkColorLight" data-tabs="snack">Snack</li>
+                        <li class="btn bg-primaryColorLight dark:bg-darkColorLight" data-tabs="beverage">Beverage</li>
                     </ul>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                 <ul class="grid gap-5 mt-10 grid-col-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
                     <!-- FOOD -->
                     <li class="items-wrap food">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-1.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -181,7 +181,7 @@
                         </div>
                     </li>
                     <li class="items-wrap food">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-2.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -193,7 +193,7 @@
                         </div>
                     </li>
                     <li class="items-wrap food">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-3.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -205,7 +205,7 @@
                         </div>
                     </li>
                     <li class="items-wrap food">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/burger-4.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -218,7 +218,7 @@
                     </li>
                     <!-- SNACK -->
                     <li class="items-wrap snack">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-1.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -230,7 +230,7 @@
                         </div>
                     </li>
                     <li class="items-wrap snack">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-2.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -242,7 +242,7 @@
                         </div>
                     </li>
                     <li class="items-wrap snack">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-3.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -254,7 +254,7 @@
                         </div>
                     </li>
                     <li class="items-wrap snack">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/snack-4.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -267,7 +267,7 @@
                     </li>
                     <!-- BEVERAGE -->
                     <li class="items-wrap beverage">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-1.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -279,7 +279,7 @@
                         </div>
                     </li>
                     <li class="items-wrap beverage">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-2.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -291,7 +291,7 @@
                         </div>
                     </li>
                     <li class="items-wrap beverage">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-3.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -303,7 +303,7 @@
                         </div>
                     </li>
                     <li class="items-wrap beverage">
-                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight rounded-3xl hover:bg-secondaryColor">
+                        <div class="grid h-56 duration-200 ease-linear place-items-center bg-primaryColorLight dark:bg-darkColorLight rounded-3xl hover:bg-secondaryColor">
                             <img class="w-40 duration-200 ease-linear hover:scale-110" src="{{ asset('frontend-assets/images/beverage-5.png') }}" alt="food image">
                         </div>
                         <div class="mt-5">
@@ -320,7 +320,7 @@
     </section>
 
     <!-- MENU SECTION -->
-    <section id="Reviews">
+    <section class="py-16" id="Reviews">
         <div class="container">
             <div class="flex flex-col items-center space-y-3">
                 <h2 class=" section-title">CUSTOMER REVIEW</h2>
@@ -334,7 +334,7 @@
             <div class="mt-10 swiper">
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide">
-                        <div class="p-6 rounded-md bg-primaryColorLight">
+                        <div class="p-6 rounded-md bg-primaryColorLight dark:bg-darkColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
@@ -353,7 +353,7 @@
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="p-6 rounded-md bg-primaryColorLight">
+                        <div class="p-6 rounded-md bg-primaryColorLight dark:bg-darkColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
@@ -372,7 +372,7 @@
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="p-6 rounded-md bg-primaryColorLight">
+                        <div class="p-6 rounded-md bg-primaryColorLight dark:bg-darkColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
@@ -391,7 +391,7 @@
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="p-6 rounded-md bg-primaryColorLight">
+                        <div class="p-6 rounded-md bg-primaryColorLight dark:bg-darkColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
@@ -410,7 +410,7 @@
                     </li>
 
                     <li class="swiper-slide">
-                        <div class="p-6 rounded-md bg-primaryColorLight">
+                        <div class="p-6 rounded-md bg-primaryColorLight dark:bg-darkColorLight">
                             <p class="para">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Similique culpa ut amet voluptas asperiores alias sed consequatur.
@@ -428,7 +428,7 @@
                         </div>
                     </li>
                 </ul>
-                <div class="swiper-pagination"></div>
+                <!--div class="swiper-pagination"></div-->
             </div>
         </div>
     </section>
