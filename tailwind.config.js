@@ -8,6 +8,11 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
     ],
+    safelist: [
+        'bottom-4',
+        '-bottom-1/2',
+        'text-secondaryColor',
+    ],
     darkMode: 'class',
     theme: {
         screens: {
